@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+section {
+    flex: 0 0 calc(25% - 20px); /* Each section occupies 25% of the width with a 20px gap */
+    margin: 10px;
+    text-align: center;
+}
+figure {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the images */
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    display: block; /* Make the entire area clickable */
+    margin-top: 10px; /* Add space between image and text */
+}
+a:hover {
+    text-decoration: underline;
+}
