@@ -1,29 +1,30 @@
 body {
     line-height: 1.6;
     color: #333;
-    margin: 30;
-    padding: 30;
-    text-align: justify; /* Align body text to justify */
+    margin: 10px; /* Added unit (e.g., px) */
+    padding: 10px; /* Added unit (e.g., px) */
+    text-align: justify;
     background-color: antiquewhite;
-    font-family: "Nunito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 
 h1 {
     text-align: justify;
     margin-top: 20px;
+    font-weight: bolder;
+    margin: 10px;
 }
 
 h2 {
     color: #007bff;
     text-align: justify;
+    font-weight: bold;
+    margin: 10px;
 }
 
 p {
-    margin-bottom: 20px;
     text-align: justify;
+    padding: 1px;
+    margin: 10px;
 }
 
 ul,
@@ -31,13 +32,31 @@ ol {
     margin-bottom: 20px;
     padding-left: 20px;
     text-align: justify;
+    padding: 1px;
+    margin: 10px;
 }
 
 ol {
     list-style-type: decimal;
+    padding: 1px;
+    margin: 10px;
 }
 
 li {
     margin-bottom: 5px;
+    padding: 1px;
+    margin: 10px;
 }
 
+body li,
+body ul,
+body ol,
+body p { /* Removed comma */
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ * {
+    margin-left: 100px;
+    margin-right: 200px;
+    font-family: Nunito;
+ }
