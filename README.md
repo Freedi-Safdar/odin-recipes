@@ -1,3 +1,3 @@
 # odin-rcipes
-When writing code, it’s considered best practice to commit early and often. Commit every time you have a meaningful change in the code. This will create a timeline of your progress and show that your finished code didn’t appear out of nowhere.
+Whether you're a seasoned chef or a passionate foodie looking to expand your repertoire, our non-vegetarian recipes offer a feast for the senses, guaranteed to leave you craving seconds. So, gather your ingredients, fire up your stove, and prepare to embark on a culinary voyage like no other. Bon appétit!
 
