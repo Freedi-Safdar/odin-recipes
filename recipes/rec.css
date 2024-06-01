@@ -55,8 +55,4 @@ body p { /* Removed comma */
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
- * {
-    margin-left: 100px;
-    margin-right: 200px;
-    font-family: Nunito;
- }
+ 
